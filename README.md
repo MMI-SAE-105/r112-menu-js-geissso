@@ -57,7 +57,7 @@ Les `____` sont à remplacer par les termes corrects.
 Trouvez l'élément `nav` de classe CSS `menu` :
 
 ```js
-nav = document.querySelector("______");
+const nav = document.querySelector("#mainNav");
 ```
 
 Doit afficher dans la console :
@@ -69,7 +69,7 @@ Doit afficher dans la console :
 Maintenant changer à `false` l'attribut `"aria-hidden"` de l'élément référencé par la variable `nav`.
 
 ```js
-nav.aria______ = ____;
+nav.aria-hidden = ____;
 ```
 
 La page doit afficher le menu
